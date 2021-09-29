@@ -7,28 +7,34 @@ function countToTen(){
 countToTen();
 
 //2
-function countFromOne(){
-    for(let i = 1; i <= n; i++) {
+function countFromOne(int){
+    for(let i = 1; i < int + 1; i++) {
         console.log(i);
     }
 }
+countFromOne(20)
 
 //3
-function countEveryEven(){
-    for(i=1; i<= 20; i++){
-        if(i % 2 == 0){
-    console.log(i);
+function countEveryEven(n){
+    for(let i = 0; i <= n; i+=2){
+        if(i > 1){
+            console.log(i)
+        }
+    }
 }
-}
-countEveryEven();
+countEveryEven(30);
 
 //4
-function countEveryOdd(){
-  
+function countEveryOdd(n){
+    for(let i = 0; i <= n; i+=3){
+        if(i > 1){
+            console.log(i)
+        }
+    }
 }
+countEveryOdd(27);
 
 //5 
 function countEvens(){
   
 }
-
